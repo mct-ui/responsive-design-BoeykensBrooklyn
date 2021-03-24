@@ -53,12 +53,6 @@ html {
     font-size: 20px;
     line-height: 1.6;
   }
-
-  h1,
-  h2,
-  h3 {
-    font-weight: 200;
-  }
 }
 
 /*
@@ -99,18 +93,21 @@ h1 {
   font-size: 36px;
   line-height: 48px;
   margin: 0 0 24px;
+  font-weight: 200;
 }
 
 h2 {
   font-size: 32px;
   line-height: 40px;
   margin: 0 0 24px;
+  font-weight: 200;
 }
 
 h3 {
   font-size: 26px;
   line-height: 32px;
   margin: 0 0 24px;
+  font-weight: 200;
 }
 
 h4,
@@ -227,7 +224,7 @@ a:focus {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  max-width: 70.5em; /* 90 * 16px = 1440px */
+  max-width: 56.4em; /* 70.5 * 16px = 1128px */
 }
 
 /*
